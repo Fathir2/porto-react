@@ -1,5 +1,16 @@
 
+/**
+ * import gsap 
+ */
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react'
+import { ScrollTrigger } from 'gsap/all'
+import { ReactLenis } from 'lenis/react'
 
+/**
+ * add plugin gsap
+ */
+gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 /**
  * components
@@ -14,20 +25,41 @@ import Porto from './components/Portofolio.jsx'
 import Footer from './components/Footer.jsx'
 
 const App = () => {
-  return (
-    <>
-   <Header />
-   <main>
-    <Hero />
-    <About />
-    <Skill />
-    <Porto />
-   </main>
-   <footer>
-    <Footer />
 
-   </footer>
-   </>
+  useGSAP(() => {
+    const elements = gsap.utils.toArray('.reveal-up');
+
+    elements.forEach((element) => {
+      gsap.to(element, {
+        scrollTrigger: {
+          trigger: element,
+         scrub: true,
+  start: '-200 bottom',
+        end: 'bottom 80%',
+
+        },
+        y: 0,
+        opacity: 1,
+        duration: 1,
+        ease: 'power2.out',
+       
+      })
+  })
+  });
+
+  return (
+    <ReactLenis root>
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Skill />
+        <Porto />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </ReactLenis>
   );
 }
 

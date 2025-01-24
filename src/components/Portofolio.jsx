@@ -29,9 +29,9 @@ const Works = [
 
 const Porto = () => {
   return (
-    <section className="section" id="portofolio">
+    <section className="section mb-12" id="portofolio">
       <div className="container">
-        <h2 className="headline-2 mb-8">My Portofolio</h2>
+        <h2 className="headline-2 mb-8 reveal-up">My Portofolio</h2>
 
         <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
           {Works.map(({ title, image, tags, link }, key) => (
@@ -41,6 +41,7 @@ const Porto = () => {
               title={title}
               tags={tags}
               link={link}
+              classes="reveal-up"
             />
           ))}
         </div>

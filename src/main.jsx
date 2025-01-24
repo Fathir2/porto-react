@@ -4,7 +4,7 @@
 /**
  * node-modules
  */
-
+import 'lenis/dist/lenis.css'
  
 
 import { StrictMode } from 'react'

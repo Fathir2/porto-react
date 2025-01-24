@@ -1,5 +1,5 @@
 
-import { FaCode, FaLaptopCode, FaGithub, FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa';
+import { FaCode, FaLaptopCode, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import Logo from '../images/logo.svg';
 
 const About = () => {
@@ -31,12 +31,7 @@ const About = () => {
       icon: <FaInstagram size={28} />,
       url: 'https://instagram.com/yourusername',
       label: 'Instagram',
-    },
-    {
-      icon: <FaFacebook size={28} />,
-      url: 'https://facebook.com/yourusername',
-      label: 'Facebook',
-    },
+    }
   ];
 
   return (
@@ -44,7 +39,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="bg-zinc-800 rounded-3xl shadow-2xl p-8 md:p-12 max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row items-start gap-8">
-            <div className="w-full md:w-1/2">
+            <div className="w-full reveal-up md:w-1/2">
               <p className="text-zinc-300 text-lg md:text-xl leading-relaxed mb-6 text-left">
                 Welcome! I&apos;m Fathir, a passionate full-stack developer dedicated to crafting efficient, visually appealing, and user-focused digital solutions. With a keen eye for detail and a love for clean code, I strive to create impactful web experiences.
               </p>

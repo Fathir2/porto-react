@@ -69,7 +69,7 @@ const Skill = () => {
        <section className="section" id="skills">
         <div className="container">
 
-            <h2 className="headline-2">
+            <h2 className="headline-2 reveal-up">
                 Essential Tool I use for development.
             </h2>
 
@@ -88,6 +88,7 @@ const Skill = () => {
                        icon={icon}
                        label={label}
                        desc={desc}
+                       classes="reveal-up"
                        
                        />
                     ))
