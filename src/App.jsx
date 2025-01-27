@@ -23,6 +23,7 @@ import About from './components/About.jsx'
 import Skill from './components/Skill.jsx'
 import Porto from './components/Portofolio.jsx'
 import Footer from './components/Footer.jsx'
+import MusicBox from './components/MusicBox.jsx';
 
 const App = () => {
 
@@ -59,6 +60,7 @@ const App = () => {
       <footer>
         <Footer />
       </footer>
+      <MusicBox />
     </ReactLenis>
   );
 }
