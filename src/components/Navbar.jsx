@@ -56,6 +56,12 @@ const Navbar = ({ NavOpen }) => {
       link: "#portofolio",
       className: "nav-link",
     },
+    {
+      label: "Contact",
+      link: "#contact",
+      className: "nav-link",
+      
+    }
   ];
   return (
     <nav className={"navbar" + (NavOpen ? " open" : "")}>

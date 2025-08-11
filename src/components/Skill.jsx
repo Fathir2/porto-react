@@ -11,14 +11,10 @@ import SkillCard from './SkillCard';
  * Icon skill 
  */
 
-
 import FigmaIcon from '../images/figma.svg';
 import ReactIcon from '../images/react.svg';
 import TailwindIcon from '../images/tailwindcss.svg';
 import LaravelIcon from '../images/laravel.svg';
-import NodeIcon from '../images/nodejs.svg';
-import MySQLIcon from '../images/mysql.svg';
-import FlutterIcon from '../images/Flutter.svg';
 import ExpressIcon from '../images/expressjs.svg';
 
 const skillItems = [
@@ -41,21 +37,6 @@ const skillItems = [
         icon: LaravelIcon,
         label: 'Laravel',
         desc: 'PHP Framework'
-    },
-    {
-        icon: NodeIcon,
-        label: 'NodeJS',
-        desc: 'JavaScript Runtime Environment'
-    },
-    {
-        icon: MySQLIcon,
-        label: 'MySQL',
-        desc: 'Database Management'
-    },
-    {
-        icon: FlutterIcon,
-        label: 'Flutter',
-        desc: 'Multiplatfrom framework'
     },
     {
         icon: ExpressIcon,

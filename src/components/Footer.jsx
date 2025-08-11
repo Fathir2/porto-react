@@ -6,13 +6,14 @@
    { label: 'About', href: '#about' },
    { label: 'Skills', href: '#skills' },
    { label: 'Portfolio', href: '#portfolio' },
+    { label: 'Contact', href: '#contact' } ,
  ];
 
  const socials = [
-   { label: 'GitHub', href: 'https://www.github.com/yourusername', icon: <FaGithub /> },
-   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/yourusername', icon: <FaLinkedin /> },
-   { label: 'Instagram', href: 'https://www.instagram.com/yourusername', icon: <FaInstagram /> },
-   { label: 'edogawafatir@gmail.com', icon: <FaEnvelope /> },
+   { label: 'GitHub', href: 'https://github.com/Fathir2', icon: <FaGithub /> },
+   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/muhammad-fathir-sagtiana-b109b8319/', icon: <FaLinkedin /> },
+   { label: 'Instagram', href: 'https://www.instagram.com/sagtiana_f/', icon: <FaInstagram /> },
+   { label: 'sagtiana27@gmail.com', icon: <FaEnvelope /> },
  ];
 
  const Footer = () => {
