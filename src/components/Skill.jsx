@@ -14,7 +14,7 @@ import SkillCard from './SkillCard';
 import FigmaIcon from '../images/figma.svg';
 import ReactIcon from '../images/react.svg';
 import TailwindIcon from '../images/tailwindcss.svg';
-import LaravelIcon from '../images/laravel.svg';
+import LaravelIcon from '../images/Laravel.svg';
 import ExpressIcon from '../images/expressjs.svg';
 
 const skillItems = [
